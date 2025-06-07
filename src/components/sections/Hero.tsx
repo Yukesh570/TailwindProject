@@ -1,3 +1,5 @@
 export const Hero=()=>{
-    return <section></section>
+    return <section className="relative pt-32 lg:pt-36">
+
+    </section>
 }
