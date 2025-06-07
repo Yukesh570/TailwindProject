@@ -10,7 +10,7 @@
   --heading-3: 55 65 81;
 }
 
-.dark {
+html.dark {
   --color-bg: 3 7 18;
   --color-box: 17 24 39;
   --box-border: 243 244 246 / 0.1;
