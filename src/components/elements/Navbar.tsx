@@ -1,5 +1,5 @@
 import { BtnLink } from "../shared/BtnLink";
-import { Container } from "../shared/container";
+import { Container } from "../shared/Container";
 import { NavItem } from "../shared/NavItem";
 import { useThemeStore } from "../../store/ThemeStore";
 

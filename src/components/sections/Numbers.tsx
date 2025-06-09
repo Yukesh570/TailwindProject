@@ -1,4 +1,4 @@
-import { Container } from "../shared/container";
+import { Container } from "../shared/Container";
 
 export const Numbers = () => {
   return (
