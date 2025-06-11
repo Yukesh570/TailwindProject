@@ -7,7 +7,7 @@ const navItems = [
   { href: "#", text: "home" },
   { href: "#services", text: "Services" },
   { href: "#about-us", text: "About Us" },
-  { href: "#features", text: "Feature" },
+  { href: "#pricing", text: "Pricing" },
 ];
 
 export const Navbar = () => {
