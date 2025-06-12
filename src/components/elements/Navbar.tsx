@@ -3,7 +3,7 @@ import { Container } from "../shared/Container";
 import { NavItem } from "../shared/NavItem";
 import { useThemeStore } from "../../store/ThemeStore";
 
-const navItems = [
+export const navItems = [
   { href: "#", text: "home" },
   { href: "#services", text: "Services" },
   { href: "#about-us", text: "About Us" },

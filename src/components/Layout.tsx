@@ -7,9 +7,9 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 export const Layout = ({ title, children }: LayoutProps) => {
-  useEffect(() => {
+  useEffect(() => {  //useEffect is reacthook that let tou run side effect after a component renders
     document.title = title;
-  }, [title]);
+  }, [title]);//[title] means only rerun this effect when title changes
   return (
     <>
       <Navbar />
