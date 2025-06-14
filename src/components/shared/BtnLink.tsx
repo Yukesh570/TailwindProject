@@ -1,3 +1,5 @@
+import React from "react";
+
 interface BtnLinkProps{
     href:string;
     text:string

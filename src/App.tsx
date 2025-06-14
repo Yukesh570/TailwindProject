@@ -1,3 +1,4 @@
+import React from "react";
 import { Testcard } from "./components/cards/testcard";
 import { Layout } from "./components/Layout";
 import { AboutUs } from "./components/sections/AboutUs";

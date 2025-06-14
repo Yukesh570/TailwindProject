@@ -2,6 +2,7 @@ import { BtnLink } from "../shared/BtnLink";
 import { Container } from "../shared/Container";
 import { NavItem } from "../shared/NavItem";
 import { useThemeStore } from "../../store/ThemeStore";
+import React from "react";
 
 export const navItems = [
   { href: "#", text: "home" },

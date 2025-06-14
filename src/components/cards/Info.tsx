@@ -1,3 +1,4 @@
+import React from "react";
 import { Paragraph } from "../shared/Paragraph";
 
 interface TitleProps{

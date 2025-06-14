@@ -1,3 +1,4 @@
+import React from "react";
 import { services } from "../../utils/services-data";
 import { Service } from "../cards/Service";
 import { Container } from "../shared/Container";

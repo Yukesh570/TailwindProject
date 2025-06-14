@@ -1,3 +1,4 @@
+import React from "react";
 import { Info } from "../cards/Info";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";

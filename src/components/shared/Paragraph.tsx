@@ -1,3 +1,5 @@
+import React from "react";
+
 interface ParagraphProps{
     children:React.ReactNode;
     className?:string;
