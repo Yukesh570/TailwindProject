@@ -8,16 +8,17 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 export const Layout = ({ title, children }: LayoutProps) => {
-  useEffect(() => {  //useEffect is reacthook that let tou run side effect after a component renders
+  useEffect(() => {
+    //useEffect is reacthook that let tou run side effect after a component renders
     document.title = title;
-  }, [title]);//[title] means only rerun this effect when title changes
+  }, [title]); //[title] means only rerun this effect when title changes
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <main className="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
         {children}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
